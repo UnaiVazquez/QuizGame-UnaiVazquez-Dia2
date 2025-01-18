@@ -1,9 +1,15 @@
 def main():
     print("Bienvenido al Juego de Preguntas!")
     questions = [
-        {"question": "¿Wich is the capital of france?", "answer": "Paris"},
-        {"question": "¿How much is 5+3*2?", "answer": "11"},
-        {"question": "¿Wich is the club that won 1-2 to PSG in champions league?", "answer": "Atletico De Madrid"},
+        {"question": "¿Wich is the capital of france?",
+          "options": ["a)Madrid", "b)Paris", "c)Lyon"],
+          "answer":"b"},
+        {"question": "¿How much is 5+3*2?", 
+         "options": ["a)10", "b)16", "c)11"],
+         "answer": "c"},
+        {"question": "¿Wich is the club that won 1-2 to PSG in champions league?", 
+         "options": ["a)Girona", "b) PSV", "c) Atletico de Madrid"]
+         "answer": "c"},
     ]
     
     score = 0
